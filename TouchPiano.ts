@@ -1,10 +1,10 @@
 /*****************************************************************************
-* | File      	:	WSTouchPiano
+* | File      	:	WSTouchPiano/Ales
 * | Author      :   Waveshare team
 * | Function    :	Contorl Piano  
 * | Info        :
 *----------------
-* |	This version:   V1.1
+* |	This version:   V1.1.2
 * | Date        :   2018-05-22
 * | Info        :   Improve misidentification
 *
@@ -77,7 +77,7 @@ namespace WSTouchPiano {
     //% block="Pey|%index|is pressed"
     //% weight=100
     export function TP_Press(index: TP_PIANO): boolean {
-        let TPval = pins.i2cReadNumber(0x57, NumberFormat.UInt16BE);
+        let TPval = pins.i2cReadNumber(0x50, NumberFormat.UInt16BE);
 
         let keyup = 1;
         let press = false;

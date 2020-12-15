@@ -1,7 +1,7 @@
 {
-    "name": "TouchPiano",
+    "name": "TouchPiano-2",
     "version": "0.0.0",
-    "description": "Waveshare electronic",
+    "description": "Waveshare electronic/Ales",
     "license": "MIT",
     "dependencies": {
         "core": "*",

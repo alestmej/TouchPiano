@@ -77,7 +77,7 @@ namespace WSTouchPiano {
     //% block="Pey|%index|is pressed"
     //% weight=100
     export function TP_Press(index: TP_PIANO): boolean {
-        let TPval = pins.i2cReadNumber(0x50, NumberFormat.UInt16BE);
+        let TPval = pins.i2cReadNumber(0xD0, NumberFormat.UInt16BE);
 
         let keyup = 1;
         let press = false;
